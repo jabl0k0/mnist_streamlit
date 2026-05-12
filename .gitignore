@@ -1,0 +1,23 @@
+# .gitignore для Streamlit + ML проекта
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.env
+
+# Модель TensorFlow / Keras
+*.h5
+mnist_cnn.h5
+
+# Служебные файлы ОС
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
